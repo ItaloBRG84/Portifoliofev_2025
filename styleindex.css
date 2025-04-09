@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
     background: #414141;
     color: #333;
+    scroll-behavior: smooth;
    
 }
 
@@ -100,6 +101,7 @@ body {
     
 }
 
+
 .nav-links a {
     color: #ff6347;
     text-decoration: none;
@@ -167,13 +169,7 @@ section.visible {
     transform: translateY(0);
 }
 
-footer {
-    text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
+
 .about{
     height: 60vh;
     display: flex;
@@ -409,7 +405,9 @@ a {
 
 }
 
-
+a{
+  cursor: pointer;
+}
 
 .tooltip {
   position: relative;
@@ -601,5 +599,100 @@ a {
   z-index: -10;
   top: 85%;
   left: 30%;
+
+}
+
+footer{
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  width: 100%;
+  margin-top: 0rem;
+  height: 250px;
+  background: linear-gradient(-45deg, #f82929 0%, #ff8f0f 100% );
+  display: flex;
+}
+.agradecimento{
+  width: 25%;
+  height: auto;
+  color: black;
+  margin-left: 30px;
+  
+  text-align: left;
+  
+}
+.agradecimento p{
+  margin-left: 30px;
+  font-size: 15px;
+  
+}
+.mapa-site{
+  width: 25%;
+  height: auto;
+  margin-left: 30px;
+  
+
+}
+.mapa-site h3{
+  text-align: left;
+}
+.mapa-site li{
+  margin: 5px;
+  list-style-type: none;
+  text-align: left;
+}
+.contatos-footer{
+  width: 25%;
+  height: auto;
+  
+  margin-left: 30px;
+}
+.contatos-footer h3{
+  text-align: left;
+}
+.contatos-footer ul li{
+  list-style-type: none;
+  text-align: left;
+}
+.contatos-footer ul li img{
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  padding-right: 25px;
+}
+.div-linha{
+  width: 1px;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 0.464);
+  box-shadow: white 1px 1px 10px 1px;
+  margin: 0px 20px;
+}
+.return button{
+  width: 50px;
+  height: auto;
+  border-style: none;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+.return button img{
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+
+.img-circle{
+  width: 100%;
+}
+.finale{
+  background-color: #333;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white;
 
 }
